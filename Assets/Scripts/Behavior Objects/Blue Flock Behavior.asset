@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e30373ee8940fd646a6d282248d8dea1, type: 3}
+  m_Name: Blue Flock Behavior
+  m_EditorClassIdentifier: 
+  behaviors:
+  - {fileID: 11400000, guid: 1cf23737a3ab6d64fb3a9f5c43d1560a, type: 2}
+  - {fileID: 11400000, guid: 48df02ceb97701044afb297059d49524, type: 2}
+  - {fileID: 11400000, guid: 06a80d719992b964388eb680df402510, type: 2}
+  - {fileID: 11400000, guid: 19f690e797b476847812b287cef472e8, type: 2}
+  - {fileID: 11400000, guid: 5607633138238ba4598ae4907a866552, type: 2}
+  weights:
+  - 1
+  - 1
+  - 4
+  - 10
+  - 3
